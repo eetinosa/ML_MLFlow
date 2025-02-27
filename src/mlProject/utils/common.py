@@ -1,7 +1,7 @@
 import os                           # Provides functions for interacting with the operating system
 from box.exceptions import BoxValueError  # Exception from the Box library used when a Box value is invalid or missing
 import yaml                         # Library for parsing YAML files
-from mlProject import logger        # Importing the project's custom logger for logging messages
+from src.mlProject import logger        # Importing the project's custom logger for logging messages
 import json                         # Library for JSON serialization and deserialization
 import joblib                       # Library for saving and loading Python objects in binary format
 from ensure import ensure_annotations  # Decorator to enforce type annotations at runtime
